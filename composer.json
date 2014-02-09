@@ -1,6 +1,6 @@
 {
 	"name": "philippfrenzel/yii2extblocksit",
-	"description": "Yii2 tooltipster Integration",
+	"description": "Yii2 Blocksit Integration for Yii2",
 	"keywords": ["yii","blocksit"],
 	"homepage": "http://www.frenzel.net/",
 	"type": "yii2-extension",
