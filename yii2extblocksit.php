@@ -8,7 +8,7 @@
  *
  */
 
-namespace yii2extblocksit;
+namespace philippfrenzel\yii2extblocksit;
 
 use Yii;
 use yii\base\Model;
@@ -25,9 +25,7 @@ class yii2extblocksit extends Widget
     * The values will be HTML-encoded using [[Html::encode()]].
     * If a value is null, the corresponding attribute will not be rendered.
     */
-    public $options = array(
-        'class' => 'grid',
-    );
+    public $options = array();
 
 
     /**
@@ -78,7 +76,7 @@ class yii2extblocksit extends Widget
         
         $className = $this->options['class'];
         
-        $options = empty($this->clientOptions) ? '' : Json::encode($this->clientOptions);
+        $options = Json::encode($this->clientOptions);
         $js[] = "$('#$id').BlocksIt($options);";
         
         $view->registerJs(implode("\n", $js),View::POS_READY);

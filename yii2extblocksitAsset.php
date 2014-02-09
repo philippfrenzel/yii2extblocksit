@@ -4,7 +4,7 @@
  * @author Philipp Frenzel <philipp@frenzel.net> 
  */
 
-namespace yii2extblocksit;
+namespace philippfrenzel\yii2extblocksit;
 
 use yii\web\AssetBundle;
 
@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class yii2extblocksitAsset extends AssetBundle
 {
-    public $sourcePath = '@yii2extblocksit/assets';
+    public $sourcePath = '@philippfrenzel/yii2extblocksit/assets';
     public $css = array(
         'css/style.css'
     );
