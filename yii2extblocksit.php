@@ -57,7 +57,7 @@ class yii2extblocksit extends Widget
      */
     public function run()
     {
-        echo Html::endTag('div'); //closes the container, opened on init
+        //echo Html::endTag('div'); //closes the container, opened on init
         $this->registerPlugin();
     }
 
