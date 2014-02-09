@@ -22,5 +22,5 @@
 	"autoload": {
 		"psr-0": { "philippfrenzel\\yii2extblocksit\\": "" }
 	},
-	"target-dir": "philippfrenzel"
+	"target-dir": "philippfrenzel/yii2extblocksit"
 }
