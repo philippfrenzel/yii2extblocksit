@@ -22,11 +22,12 @@ Usage
 -----
 
 ```php
-<?php echo \philippfrenzel\gravatar\Gravatar::widget([
-    'email' => 'mail@philippfrenzel.cc',
-    'options' => [
-        'alt' => 'pp'
-    ],
-    'size' => 32
+<?php echo \philippfrenzel\yii2extblocksit\yii2extblocksit::widget([
+    'clientOptions' => [
+		'numOfCol' => 5,
+        'offsetX' => 5,
+        'offsetY' => 5,
+        'blockElement' => 'site_index'
+    ]
 ]); ?>
 ```
