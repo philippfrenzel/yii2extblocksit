@@ -74,8 +74,6 @@ class yii2extblocksit extends Widget
 
         $js = array();
         
-        $className = $this->options['class'];
-        
         $options = Json::encode($this->clientOptions);
         $js[] = "$('#$id').BlocksIt($options);";
         
