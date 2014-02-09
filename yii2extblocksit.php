@@ -44,12 +44,12 @@ class yii2extblocksit extends Widget
      */
     public function init()
     {
+        parent::init();
         //checks for the element id
         if (!isset($this->options['id'])) {
             $this->options['id'] = $this->getId();
         }
-
-        parent::init();
+        echo Html::beginTag('div', ['id' => $this->options['id']]); //opens the container
     }
 
     /**
@@ -57,6 +57,7 @@ class yii2extblocksit extends Widget
      */
     public function run()
     {
+        echo Html::endTag('div'); //closes the container, opened on init
         $this->registerPlugin();
     }
 
